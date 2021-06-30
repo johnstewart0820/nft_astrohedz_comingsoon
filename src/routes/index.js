@@ -10,8 +10,7 @@ const Routes = () => {
   return (
     <Router>
       <Switch>
-        <Redirect exact from="/" to="/home" />
-        <Route path="/home" component={Home} />
+        <Route path="/" component={Home} />
       </Switch>
     </Router>
   )
