@@ -9,96 +9,76 @@ const useStyles = makeStyles(() => ({
     position: 'relative',
     background: 'url(' + backgroundImage + ') 50% 50% no-repeat rgb(249,249,249)',
     backgroundSize: 'cover',
+    color: 'white',
   },
   socialTwitter: {
-    width: '60px',
-    height: '60px',
-    position: 'absolute',
-    top: '86%',
-    left: 'calc(50% - 110px)',
-    '&:hover': {
-      cursor: 'pointer',
-    },
-    '@media (max-height: 600px)': {
-      width: '30px',
-      height: '30px',
-      left: 'calc(50% - 65px)',
-    },
+    // width: '60px',
+    height: '60%',
+    padding: 5,
+    // position: 'absolute',
+    // top: '86%',
+    // left: 'calc(50% - 110px)',
+    // '&:hover': {
+    //   cursor: 'pointer',
+    // },
+    // ''@media (max-height: 600px)': {
+    //   width: '30px'':,,
+    //   height: '30px',
+    //   left: 'calc(50% - 65px)',
+    // },
   },
   socialInstagram: {
-    width: '60px',
-    height: '60px',
-    position: 'absolute',
-    top: '86%',
-    left: 'calc(50% - 30px)',
-    '&:hover': {
-      cursor: 'pointer',
-    },
-    '@media (max-height: 600px)': {
-      width: '30px',
-      height: '30px',
-      left: 'calc(50% - 15px)',
-    },
+    height: '60%',
+    padding: 5,
   },
   socialDiscord: {
-    width: '60px',
-    height: '60px',
-    position: 'absolute',
-    top: '86%',
-    left: 'calc(50% + 50px)',
-    '&:hover': {
-      cursor: 'pointer',
-    },
-    '@media (max-height: 600px)': {
-      width: '30px',
-      height: '30px',
-      left: 'calc(50% + 33px)',
-    },
+    height: '60%',
+    padding: 5,
   },
-  container: {
-    display: 'flex',
-    justifyContent: 'space-around',
+  spaceOneContainer: {
+    height: '10vh',
+  },
+  bandContainer: {
     width: '100%',
+    height: '33vh',
+    alignItems: 'center',
+    display: 'flex',
+    justifyContent: 'center',
+  },
+  openContainer: {
+    alignItems: 'center',
+    display: 'flex',
+    justifyContent: 'center',
+    width: '100%',
+    height: '17vh',
+    paddingBottom: '2vh',
+  },
+  descriptionContainer: {
+    alignItems: 'center',
+    display: 'flex',
+    justifyContent: 'center',
+    width: '100%',
+    height: '7vh',
+  },
+  spaceTwoContainer: {
+    height: '15vh',
+  },
+  socialContainer: {
+    textAlign: 'center',
+    width: '100%',
+    height: '10vh',
+  },
+  spaceThreeContainer: {
+    height: '5vh',
   },
   band: {
-    width: '50%',
-    marginTop: '10%',
-    '@media (max-width: 600px)': {
-      marginTop: '200px',
-    },
-    '@media (min-width: 600px)': {
-      marginTop: '25%',
-    },
-    '@media (min-width: 768px)': {
-      marginTop: '15%',
-    },
-    '@media (min-width: 960px)': {
-      marginTop: '10%',
-    },
-    '@media (min-width: 1280px)': {
-      marginTop: '3%',
-    },
-    '@media (max-height: 600px)': {
-      marginTop: '50px',
-      width: '40%',
-      marginBottom: '30px',
-    },
-    '@media (min-height: 600px)': {
-      marginTop: '50px',
-      width: '40%',
-    },
-    '@media (min-height: 768px)': {
-      marginTop: '50px',
-      width: '40%',
-    },
+    height: '100%',
   },
   openSoon: {
-    width: '25%',
-    marginTop: '-3%',
+    height: '100%',
   },
   description: {
-    width: '75%',
-    marginTop: '-3%',
+    height: '100%',
   },
 }))
 
