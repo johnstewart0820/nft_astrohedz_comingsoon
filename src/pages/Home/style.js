@@ -60,41 +60,41 @@ const useStyles = makeStyles(() => ({
     justifyContent: 'space-around',
     width: '100%',
   },
-  backgroundImage: {},
   band: {
-    width: '75%',
+    width: '50%',
     marginTop: '10%',
     '@media (max-width: 600px)': {
-      maxWidth: '540px',
       marginTop: '200px',
     },
     '@media (min-width: 600px)': {
-      maxWidth: '540px',
       marginTop: '25%',
     },
     '@media (min-width: 768px)': {
-      maxWidth: '720px',
       marginTop: '15%',
     },
     '@media (min-width: 960px)': {
-      maxWidth: '900px',
       marginTop: '10%',
     },
     '@media (min-width: 1280px)': {
-      maxWidth: '1200px',
-      marginTop: '5%',
+      marginTop: '3%',
     },
     '@media (max-height: 600px)': {
-      maxWidth: '540px',
       marginTop: '50px',
+      width: '40%',
+      marginBottom: '30px',
     },
-    '@media (min-width: 1280px, max-height: 768)': {
-      marginTop: '200px',
+    '@media (min-height: 600px)': {
+      marginTop: '50px',
+      width: '40%',
+    },
+    '@media (min-height: 768px)': {
+      marginTop: '50px',
+      width: '40%',
     },
   },
   openSoon: {
-    width: '30%',
-    marginTop: '-8%',
+    width: '25%',
+    marginTop: '-3%',
   },
   description: {
     width: '75%',
