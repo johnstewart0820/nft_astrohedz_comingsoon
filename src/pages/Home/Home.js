@@ -18,27 +18,30 @@ const Home = () => {
   window.onresize = displayWindowSize
   window.onload = displayWindowSize
   function displayWindowSize() {
+    const doc = document.documentElement
+    doc.style.setProperty('--app-height', `${window.innerHeight}px`)
+
     rateScreen = window.screen.width / window.screen.height
     if (rateScreen < 0.5) {
       descriptionRef.current.style.height = '35%'
-      bandRef.current.style.height = '35%'
-      openSoonRef.current.style.height = '35%'
+      bandRef.current.style.height = '47%'
+      openSoonRef.current.style.height = '48%'
     } else if (rateScreen < 0.61) {
       descriptionRef.current.style.height = '42%'
-      bandRef.current.style.height = '42%'
-      openSoonRef.current.style.height = '42%'
+      bandRef.current.style.height = '62%'
+      openSoonRef.current.style.height = '64%'
     } else if (rateScreen < 0.83) {
       descriptionRef.current.style.height = '50%'
-      bandRef.current.style.height = '50%'
-      openSoonRef.current.style.height = '50%'
+      bandRef.current.style.height = '72%'
+      openSoonRef.current.style.height = '73%'
     } else if (rateScreen < 0.95) {
       descriptionRef.current.style.height = '60%'
-      bandRef.current.style.height = '60%'
-      openSoonRef.current.style.height = '60%'
+      bandRef.current.style.height = '82%'
+      openSoonRef.current.style.height = '83%'
     } else if (rateScreen < 1.2) {
       descriptionRef.current.style.height = '80%'
-      bandRef.current.style.height = '80%'
-      openSoonRef.current.style.height = '80%'
+      bandRef.current.style.height = '92s%'
+      openSoonRef.current.style.height = '93%'
     } else {
       descriptionRef.current.style.height = '100%'
       bandRef.current.style.height = '100%'

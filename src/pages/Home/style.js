@@ -12,20 +12,8 @@ const useStyles = makeStyles(() => ({
     color: 'white',
   },
   socialTwitter: {
-    // width: '60px',
     height: '60%',
     padding: 5,
-    // position: 'absolute',
-    // top: '86%',
-    // left: 'calc(50% - 110px)',
-    // '&:hover': {
-    //   cursor: 'pointer',
-    // },
-    // ''@media (max-height: 600px)': {
-    //   width: '30px'':,,
-    //   height: '30px',
-    //   left: 'calc(50% - 65px)',
-    // },
   },
   socialInstagram: {
     height: '60%',
@@ -36,7 +24,7 @@ const useStyles = makeStyles(() => ({
     padding: 5,
   },
   spaceOneContainer: {
-    height: '10vh',
+    height: '5vh',
   },
   bandContainer: {
     width: '100%',
@@ -61,7 +49,7 @@ const useStyles = makeStyles(() => ({
     height: '7vh',
   },
   spaceTwoContainer: {
-    height: '15vh',
+    height: '13vh',
   },
   socialContainer: {
     textAlign: 'center',
@@ -69,7 +57,7 @@ const useStyles = makeStyles(() => ({
     height: '10vh',
   },
   spaceThreeContainer: {
-    height: '5vh',
+    height: '12vh',
   },
   band: {
     height: '100%',
