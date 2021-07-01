@@ -5,7 +5,7 @@ import twitter from 'assets/images/Home/twitter.png'
 import instagram from 'assets/images/Home/instagram.png'
 import discord from 'assets/images/Home/discord.png'
 import band from 'assets/images/Home/band.png'
-import openSoon from 'assets/images/Home/openSoon.gif'
+import openSoon from 'assets/images/Home/openSoon.png'
 import description from 'assets/images/Home/description.png'
 
 const Home = () => {
