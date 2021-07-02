@@ -69,7 +69,7 @@ const Home = () => {
         <a href="https://instagram.com/astrohedz" target="_blank" rel="noreferrer">
           <img src={instagram} className={classes.socialInstagram} />
         </a>
-        <a href="https://discord.gg/jGXRQFuZtA" target="_blank" rel="noreferrer">
+        <a href="https://discord.gg/unWzTdD98z" target="_blank" rel="noreferrer">
           <img src={discord} className={classes.socialDiscord} />
         </a>
       </Box>
